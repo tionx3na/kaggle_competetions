@@ -1,0 +1,25 @@
+MSSubClass
+-----------
+ It is observed that MSSubClass of 60, that is 2-story 1946 & newer has a higher
+ sales price.
+
+ MSSubClass 30, that is 1-story 1945 & older has the least sales prices.
+
+ Number of people who bought MSSubClass 20, that is 1-story 1946 @ newer all styles
+ are the highest.
+
+ MSZoning
+ ------------
+
+ We see that Floating village resedential has higher salesprice followed by Resedential 
+ low density.
+
+ Commercial has the lowest salesprice.
+
+ We also observe that most people bought Residential Low Density.
+
+ LotFrontage
+ ------------
+
+ 
+
