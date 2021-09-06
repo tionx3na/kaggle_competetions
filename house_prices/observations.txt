@@ -135,13 +135,94 @@ than gentle slope.
 
  Categorical variable
 
- We can observe that most people baught normal without any conditions
+ We can observe that most people bought normal without any conditions
 
  but when there is a condition, more people wanted a house Adjacent to feeder street.
 
  From barplot and boxplot we can observe that houses Near positive off-site feature--park, greenbelt, etc. and
  houses Within 200' of North-South Railroad has the highest median salesprice while houses Adjacent to arterial street
  has the lowest median salesprice.
+
+ Condition2
+ ---------------
+
+ categorical variable
+
+ Just like before, most people bought normal without any conditions.
+
+ Since Condition2 is active only if there is more than one condition, we need to combine condition1 and 2 together.
+After combining, we need to group into categories inorder to further clean the data.
+
+BldgType
+--------------
+
+Categorical variable
+
+We see that majority of the people bought single family detached house. We cannot really compare other
+BldgType to 1Fam beacause of the sheer number of it.
+
+We cannot establish a relation with SalePrice without treating the outliers and overcome the size difference.
+
+HouseStyle
+-----------------
+
+We see that 1 story houses are bought more followed by 2 story.
+
+We can see a trend that unfinished houses tend to have lower SalePrice.
+
+We can also see split foyer style also tend to have lower SalePrice.
+
+We can also see that Two and one-half story: 2nd level finished relatively higher SalePrice.
+
+Outliers are observed and needs to be corrected.
+
+OverallQual
+-------------------
+
+Categorical variable
+
+There is undeniable that as the overall quality of the house increases, then the SalePrice also
+increases.
+
+OverallCond
+-------------------
+
+Categorical variable
+
+There are outliers and needs to be treated. But we can see that as the overall condition increases then
+the SalePrice also increases.
+
+YearBuilt
+------------------
+
+Numerical values
+
+We can see from the scatterplot that usually as the year of the house build increases the SalePrice also
+increase.
+
+We can group the years and make it categorical to refine the data set a bit more.
+
+YearRemodAdd
+-------------------
+
+Numerical values
+
+If the house is not remodeled, then the year is the YearBuilt, therefore,
+we need to combine both the columns and find a relationship and engineer a common feature inorder to 
+refine the data set.
+
+RoofStyle
+--------------------
+
+Categorical values
+
+We can see that majority if the houses has the roofstyle gable.
+
+We can see that apart from gable, the SalePrice tends to higher for Hip and shed.
+
+
+
+
 
 
 
