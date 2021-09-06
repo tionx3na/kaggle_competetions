@@ -1,5 +1,8 @@
 MSSubClass
 -----------
+
+Categorical variable
+
  It is observed that MSSubClass of 60, that is 2-story 1946 & newer has a higher
  sales price.
 
@@ -11,6 +14,8 @@ MSSubClass
  MSZoning
  ------------
 
+ categorical variable
+
  We see that Floating village resedential has higher salesprice followed by Resedential 
  low density.
 
@@ -21,5 +26,123 @@ MSSubClass
  LotFrontage
  ------------
 
+ Numerical variable
+
+ From scatterplot we can see that there are no defenite correlation between LotFrontage and
+ SalePrice
+
+ Almost 259 entries are missing in the Data.
+
+ LotArea
+ --------
+
+ Numerical Variable
+
+ From scatterplot we can observe that there are no defenite correlation between LotArea and 
+ SalePrice.
+
+ Street
+ -------
+
+ Categorical variable
+
+ We can see from the count plot and subsequent percentage calculation that the paved road access
+ dominate the data set with almost 99% of the road access being paved.
+
+ We can see from the boxplot that paved road access tends to have higher sale price also probably beacuase 
+ of higher demand. ---------- We don't need to do this as it is already categorical and converts to 1 and 0 
+ when we label encode that variables.
+
+ We can actually classify this as demand being higher for paved and lower for gravel.
+
+Alley
+------
+
+Categorical variable
+
+We can see that the number of gravel alley is more with around 50, than paved which only has 41.
+Majority of the houses does not have any alley access.
+
+We grouped the null values to 'NO' as in No access to alley.
+
+We see that paved alley acces has higher median SalePrice than both gravel and no access to alley.
+
+LotShape
+---------
+
+Categorical variable
+
+We see that the number of regular shaped houses are more followed by slightly irregular.
+
+We observe from the boxplot that, Moderately irregular houses has the highest median Sale Price, 
+followed by highly irregular, slightly irregular and regular.
+
+LandContour
+-------------
+
+Categorical variable
+
+We can observe from count plot that near flat/level houses are bought more than every other 
+LandContours.
+
+We can also observe from the boxplot and the barplot that Hillside has the highest median followed by depression, 
+level and banked.
+
+Utilities
+-----------
+
+Categorical variable
+
+We observe that all except 1 property is All public utilities.
+
+We also observe on plotting a box plot that the median of All public is higher than that of the 
+NoSeWa.
+
+We can see from the training set that there are no demand for NoSeWr and ELO, hence we can say that
+properties with these type of utilities might have lower SalePrice.
+
+LotConfig
+----------
+
+Categorical variable
+
+We can observe that inside lot has more buyers.
+
+Also from boxplot we can clearly see that cul-de-sac LotConfig has higher SalePrice.
+
+LandSlope
+-----------
+
+Categorical variable
+
+we can see that the gentle slope on the property has more buyers but severe slope and moderate slope has a higher median SalePrice
+than gentle slope.
+
+ Neighborhood 
+ ---------------
+
+ Categorical variable
+
+ We can see from count_value that North Ames has the highest number of buyers followed by
+ College Creek, Old Town and Edwards where have above 100 buyers in the data set.
+
+ We can see that Bluestem has the lowest buyer.
+
+ We can see the SalePrice at Northridge Heights are higher compared to others followed by Northridge and Stone Brook.
+
+ Condition1
+ -------------
+
+ Categorical variable
+
  
+
+
+
+
+
+
+
+
+
 
