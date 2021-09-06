@@ -135,7 +135,15 @@ than gentle slope.
 
  Categorical variable
 
- 
+ We can observe that most people baught normal without any conditions
+
+ but when there is a condition, more people wanted a house Adjacent to feeder street.
+
+ From barplot and boxplot we can observe that houses Near positive off-site feature--park, greenbelt, etc. and
+ houses Within 200' of North-South Railroad has the highest median salesprice while houses Adjacent to arterial street
+ has the lowest median salesprice.
+
+
 
 
 
