@@ -220,6 +220,95 @@ We can see that majority if the houses has the roofstyle gable.
 
 We can see that apart from gable, the SalePrice tends to higher for Hip and shed.
 
+RoofMatl
+-------------------
+
+Categorical values
+
+A staggering majority of houses use Standard (Composite) Shingle as the roof material.
+
+Wood Shingles has the highest SalePrice according to boxplot. 
+
+There are outliers and we need to establish a relationship between roofstyle and roof material 
+to correctly predict the SalePrice.
+
+Exterior1st
+-----------------
+
+Categorical values
+
+Most of the houses use Vinyl Siding.
+
+It is observed that Imitation Stucco, Stone and Cement Board is comparatively higher in SalePrice.
+
+It is also observed that Brick Common has the least SalePrice.
+
+Exterior2nd
+-----------------
+
+Categorical values
+
+note that if only there are more than 1 Exterior covering, this column becomes active.
+
+We need to combine this column with Exterior1st coulumn and then group inorder to predict SalePrice
+with good accuracy.
+
+MasVnrType
+-----------------
+
+Categorical values
+
+We see that there are 8 missing values in this column. We need to find a way to fill these values.
+
+We observe that Stone Masonry Veneer has the highest SalePrice followed by Brick Face.
+
+We can also observe that brick common has the lowest SalePrice.
+
+MasVnrArea
+-------------------
+
+Numerical values
+
+8 null values.
+
+There is almost no correlation between MasVnrArea with SalePrice.
+
+Cannot clearly establish a relationship with neither SalePrice or MasVnrType.
+
+ExterQual
+-----------------
+
+Categorical values
+
+As expected the value of SalePrice increases as the ExterQual increases.
+
+ExterCond
+---------------
+
+categorical values
+
+As expected if external condition increases the SalePrice increases.
+
+Outliers are observed and needs to treated.
+
+Foundation
+----------------
+
+Categorical values
+
+highest SalePrice is for Poured Contrete followed by wood and stone.
+
+lowest is for slab.
+
+
+
+
+
+
+
+
+
+
 
 
 
