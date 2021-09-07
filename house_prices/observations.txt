@@ -621,6 +621,168 @@ Outliers needs to be corrected.
 
 Generally higher the number of cars that the garage can fit in, higher SalePrice.
 
+GarageArea
+----------------
+
+Numerical value
+
+Null values present.
+
+We can see that garageArea has a slight correlation with SalePrice.
+
+We need to clean the data of 0, that is no garage.
+
+GarageQual
+--------------
+
+Categorical value
+
+Null values present.
+
+Outliers needs to be corrected. Apart from that, we can see there is clear correlation with SalePrice.
+
+GarageCond
+--------------
+
+Categorical value
+
+Outliers are observed and doesn't have significant correlation to SalePrice, even though i believe it can be 
+established once the data is cleaned and the outlier is treated.
+
+
+PavedDrive
+---------------
+
+Categorical
+
+Outliers needs to be treated.
+
+Paved and partially paved tends to have higher SalePrice than gravel/dirt.
+
+WoodDeckSF
+-----------------
+
+Numerical
+
+If we avoid 0 wood deck square feet( no wood deck), there is a slight correlation with SalePrice.
+
+OpenPorchSF
+----------------
+
+Numerical
+
+If outliers are treated, then there is a slight correlation between Open poarch and SalePrice.
+
+EnclosedPorch
+----------------
+
+Numerical
+
+There is almost no correlation with SalePrice.
+
+There is almost no correlation with OpenPorchSF either.
+
+3SsnPorch
+----------------
+
+Numerical
+
+There is no correlation with SalePrice.
+
+We can maybe see if we could engineer new feature from it.
+
+ScreenPorch
+----------------
+
+Numerical
+
+Again no direct correlation with SalePrice. but can be used to engineer new feature.
+Especially turn all the poarch types into categorical column.
+
+PoolArea
+--------------
+
+Numerical
+
+There are only 7 values which are not 0.
+logically if pool area increases, the salesprice should increase.
+
+
+PoolQC
+--------------
+
+Categorical
+
+There are only 7 non null fields.
+
+We can actually drop this fiels.
+
+logically if pool quality increases, the salesprice should increase.
+
+
+Fence
+-------------
+
+Categorical
+
+Only 281 non null values.
+
+We need to fill the null values with "no fence"
+
+If ouliers are corrected, there is a correlation forming with SalePrice.
+
+MiscFeature
+--------------
+
+Categorical
+
+only 54 non null values.
+
+There is outlier with shed an needs to be corrected.
+
+There is a trend we can see with SalePrice.
+If there is a tennis court the salesprice tends to be higher followed by a 2nd garage.
+
+MiscVal
+-------------
+
+Numerical
+
+Cannot establish a relationship with SalePrice. Although it maybe possible to mix with MiscFeature
+to get a usable feature.
+
+MoSold
+------------
+
+Categorical
+
+Outliers are present and needs to be corrected.
+
+We see that the SalePrice is higher in the month september and november then lowest in april and may.
+
+YrSold
+----------
+Categorical
+
+There is almost no correlation with SalePrice.
+
+SaleType
+----------
+
+Categorical
+
+Outliers are present and needs to be corrected.
+
+We see that new homes tends to have higher SalePrice followed by houses with Contract 15% Down payment regular terms
+
+SaleCondition
+---------------
+Categorical
+
+Outliers are observed and needs to corrected.
+There is a slight correlation with SalePrice.
+
+
 
 
 
