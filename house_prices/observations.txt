@@ -380,6 +380,257 @@ outliers needs to be treated.
 Average Living Quarters and Good Living Quarters have the highest SalePrice.
 
 
+BsmtFinSF2
+----------------
+
+Numerical values
+
+We can see that there are not much of correlation between BsmtFinSF2 and SalePrice.
+
+we can use this variable to fill the null values in BsmtFinType2.
+
+BsmtUnfSF
+----------------
+
+Numerical values
+
+Unfinished square feet of basement.
+
+We can see that there is a clear relationship between BsmtUnfSF and TotalBsmtSF. We can use this
+relationship to engineer features.
+
+TotalBsmtSF
+----------------
+
+Numerical values
+
+We can see that there definite correlation between total basement area. We could see if we can improve 
+the correlation with the help of the above features.
+
+Heating
+---------------
+
+Categorical values
+
+We can see that Gas forced warm air furnace is more in numbers. therefore there are outliers and needs to be treated.
+
+We see that Gas hot water or steam heat has higher SalePrice.
+
+HeatingQC
+----------------
+
+Categorical values
+
+Undeniable relationship between SalePrice.
+
+CentralAir
+------------------
+
+Categorical values
+
+Clearly, if there is central air condition, then the SalePrice is higher.
+Alos most people choose to have a central air condition.
+
+Electrical
+-----------------
+
+Categorical values
+
+There is 1 null value.
+
+Most people chose Standard Circuit Breakers & Romex.
+
+Outlier treatment is needed.
+
+Standard Circuit Breakers & Romex has highest SalePrice followed by Fuse Box over 60 AMP and all Romex wiring (Average).
+
+1stFlrSF
+--------------------
+
+Numerical values
+
+we can see that there is correlation between the square feet of the first floor and the SalePrice.
+
+2ndFlrSF
+----------------
+
+Numerical values
+
+0 means there is no second floor.
+We need to clean the data as we need to remove or fill 0 with other values. Since it brings down the prediction accuracy.
+
+If we remove 0, we see that there is a defenite correlation between 2ndFlrSF and SalePrice.
+
+LowQualFinSF
+---------------
+
+Numerical values
+
+There is no relationship with SalePrice at all.
+
+We can actually drop this feature altogether.
+
+GrLivArea 
+---------------
+
+Numerical value
+
+There is clear and significant relationship between Ground living area and SalePrice.
+
+BsmtFullBath
+---------------
+
+Categorical value
+
+Outliers needs to be treated.
+
+But we can see a trend that as the number of full bathrooms in the basement increases, the SalePrice also
+increases.
+
+BsmtHalfBath
+---------------
+
+Categorical value
+
+outliers needs to be treated.  But there is a genral  trend that houses with 0 half bathrooms are more.
+
+We can observe that there is a very slight relationship with SalePrice which i believe can be imporoved 
+by correcting the outliers.
+
+FullBath
+-------------
+
+Categorical value
+
+There is a general trend as the number of bathroom increases, the SalePrice increases but houses with
+0 bathroom tends to defy this as it generally costs more than the houses with 1 bathroom.
+
+outliers needs to corrected.
+
+HalfBath
+-------------
+
+Categorical value
+
+Outliers needs to be treated but there is a general trend of number of bathrooms determines
+how much the SalePrice is.
+
+BedroomAbvGr
+---------------
+
+Categorical value
+
+We see that the general trend of "As number of bedroom increases, SalePrice increases" applies only
+to houses with 2,3 and 4 bedrooms. 
+
+Exception is for houses with 0 or 1 bedrooms, since it seems to define the general trend.
+
+I believe if the outliers are treated the rest of the categories behave within the trend except for
+0 and 1.
+
+KitchenAbvGr
+----------------
+
+Categorical value
+
+There is defintely data cleaning required here. 
+We see that most houses have 1 kitchen.
+I cannot really find a correlation of number of kitchen with SalePrice before data cleaning anyway.
+
+KitchenQual
+----------------
+
+Categorical value
+
+There is defenite correlation between Kitchen quality and SalePrice.
+We can combine this with KitchenAbvGr to refine it it more.
+
+TotRmsAbvGrd
+---------------
+
+Categorical value
+
+outliers needs to cleaned.
+
+We can see that there is a general trend that if the number of total rooms above ground increases,
+then SalePrice also increases, except for houses for 12 rooms, and we need to find a good cleaning
+method to correct this.
+
+Functional
+---------------
+
+Categorical value
+
+We see that majority has typical functionalities.
+
+We can also observe that, If the functionalities has major deductions 2, then the SalePrice is very low.
+
+outliers needs to treated or not.
+
+Fireplaces
+----------------
+
+Categorical value
+
+We see that there is significant correlation with SalePrice. 
+
+FireplaceQu
+----------------
+
+Categorical value
+
+There are only 770 non-null values. 
+We need to fill the null values with "No fireplace".
+
+We can see that there is a correlation that as the quality increases, the SalePrice also increases.
+
+GarageType
+---------------
+
+Categorical value
+
+There are null values. Null values to be filled with "No garage"
+
+outliers are ther and needs to be corrected. Built-in garage tends to be higher in SalePrice.
+
+GarageYrBlt
+-------------
+
+Numerical value
+
+there are null values and needs to be filled.
+
+But we can see that there is a general trend of, "Later the years, higher the SalePrice"
+
+GarageFinish
+---------------
+
+Categorical values
+
+There are null values and needs to be filled and outliers needs to be corrected. Null values
+needs to be filled with "no garage".
+
+Finished garage tends to have higher price, while unfinished garage tends to have lower price.
+
+GarageCars
+---------------
+
+Categorical values
+
+Outliers needs to be corrected.
+
+Generally higher the number of cars that the garage can fit in, higher SalePrice.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
