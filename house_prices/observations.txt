@@ -300,6 +300,93 @@ highest SalePrice is for Poured Contrete followed by wood and stone.
 
 lowest is for slab.
 
+BsmtQual
+-----------------
+
+categorical values
+
+37 null values observed.
+
+As ecpected, if the basement Height increases, the SalePrice also increases.
+
+Outliers are detected and needs to be corrected and the null values needs to filled.
+
+We see that the dataset doesnot have the poor and no basement values.
+
+BsmtCond
+----------------
+
+categorical value
+
+again, 37 null values
+
+Here we observe that there are no excellent and no basement values.
+
+But typically from data set we can see that as basement condition grade increases, the SalePrice
+also increases.
+
+We need to find a way to combine the BsmtQual and BsmtCond for better prediction.
+
+BsmtExposure
+-----------------
+
+categorical value
+
+38 missing values here.
+
+Again, as Basement exposure grade increases, the SalePrice increases.
+
+outliers needs to be corrected.
+
+BsmtFinType1
+-----------------
+
+37 null values
+
+categorical value
+
+We see that Good Living Quarters has the highest SalePrice.
+
+We can also observe that Below Average Living Quarters and Average Rec Room has the lowest SalePrice.
+
+we need to correct the outliers and fill the null values.
+
+BsmtFinSF1
+-----------------
+
+Numerical value
+
+This column are the square feets of finished area only.
+
+We can fill the null values of the previous variables, if this variable is 0 and
+the previous variables are not unfinished.
+
+We can see from the scatterplot and the pearson correlation that there is no significant
+relation between BsmtFinSF1 and SalePrice.
+
+BsmtFinType2
+----------------
+
+categorical value
+
+Active if there are multiple types of basements.
+
+38 null values.
+
+The number of unfinished basements are very high.
+
+outliers needs to be treated.
+
+Average Living Quarters and Good Living Quarters have the highest SalePrice.
+
+
+
+
+
+
+
+
+
 
 
 
