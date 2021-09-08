@@ -3,6 +3,8 @@ MSSubClass
 
 Categorical variable
 
+outliers are there.(But there are no sure way to handle those outliers.)
+
  It is observed that MSSubClass of 60, that is 2-story 1946 & newer has a higher
  sales price.
 
