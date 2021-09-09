@@ -13,6 +13,9 @@ outliers are there.(But there are no sure way to handle those outliers.)
  Number of people who bought MSSubClass 20, that is 1-story 1946 @ newer all styles
  are the highest.
 
+
+ // Cannot establish a solid feature engineering process to this variable.
+
  MSZoning
  ------------
 
@@ -25,6 +28,10 @@ outliers are there.(But there are no sure way to handle those outliers.)
 
  We also observe that most people bought Residential Low Density.
 
+ // New feature is created.
+
+
+
  LotFrontage
  ------------
 
@@ -34,6 +41,9 @@ outliers are there.(But there are no sure way to handle those outliers.)
  SalePrice
 
  Almost 259 entries are missing in the Data.
+
+ // Fill missing values with 0 as there is no lot.
+ // We need to make new column with, NO garage or yes garage.
 
  LotArea
  --------
