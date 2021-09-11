@@ -43,7 +43,7 @@ outliers are there.(But there are no sure way to handle those outliers.)
  Almost 259 entries are missing in the Data.
 
  // Fill missing values with 0 as there is no lot.
- // We need to make new column with, NO garage or yes garage.
+ // We need to make new column with, NO garage or yes garage. //done 
 
  LotArea
  --------
@@ -52,6 +52,8 @@ outliers are there.(But there are no sure way to handle those outliers.)
 
  From scatterplot we can observe that there are no defenite correlation between LotArea and 
  SalePrice.
+
+ // There is a weeak correlation, and hence we would keep it.
 
  Street
  -------
@@ -78,6 +80,8 @@ Majority of the houses does not have any alley access.
 We grouped the null values to 'NO' as in No access to alley.
 
 We see that paved alley acces has higher median SalePrice than both gravel and no access to alley.
+
+//done
 
 LotShape
 ---------
